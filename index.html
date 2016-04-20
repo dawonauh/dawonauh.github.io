@@ -1,57 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
+ 
 <html>
-<!--
-  * Please see the included README.md file for license terms and conditions.
-  -->
-<head>
-    <title>My Favourite Recipes</title>
-   
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-
-    <!-- see http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
-    <style>
-        /* following two viewport lines are equivalent to meta viewport statement above, needed for Windows */
-        /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html and http://dev.w3.org/csswg/css-device-adapt/ */
-        @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }  @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
-        @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }           @viewport { user-zoom: fixed ; min-zoom: 100% ; }
-    </style>
-
-    <!-- Uncomment the following scripts if you convert your "Standard HTML5" project into a "Cordova" project. -->
-    <!-- <script src="cordova.js"></script> -->          <!-- phantom library, needed for Cordova api calls, added during build -->
-    <!-- <script src="js/app.js"></script> -->           <!-- recommended location of your JavaScript code relative to other JS files -->
-    <!-- <script src="xdk/init-dev.js"></script> -->     <!-- normalizes device and document ready events, see README for details -->
-</head>
-
-<body>
-     <h1>My Favourite Recipes</h1>
     
+ 
+     <head>
+    
+    </head>     
+    
+    <body>
+
+    <h1>My Favourite Recipes</h1>
+    <nav>
+      <ul>   
+      <li><a href="#Pizza">Pizza</a></li>
+      <li><a href="#Banana_Bread">Banana Bread</a></li>
+      <li><a href="#Briyani">Briyani</a></li>
+    </ul> 
+        
+    </nav>
+        
+    <article id ="Pizza">
+    <h2>Pizza</h2>
+    <img src="Images/pizza.jpg">
+        
     <h2>How to make Pepperoni Pizza </h2>
     
     <h3>Ingredients:</h3>
     <ul> 
-     <li>Flour</li>
-     <li>Pepperoni</li>
-     <li>Cheese</li>
-     <li>Tomato Sauce</li>  
-	 <li>Salt </li>
-    
+     <li>500 g Flour</li>
+     <li>20 slices Pepperoni</li>
+     <li>1 Pack of Cheese</li>
+     <li>1 can of Tomato Sauce</li>  
     </ul>
+        
     <h3>Directions:</h3>
     <ol>
-     <li> Mix flour with water and salt </li>
+     <li> Mix flour with water  </li>
      <li> Knead the dough and use a roller pin to flatten the dough </li>
-     <li>Spread tomato sauce on the dough </li>
-    <li> Spread Cheese on the dough </li>
-    <li> Add pepperoni on the dough </li>
-    <li> Bake for 20 mins at 400 F </li>
-    <li> After 20 mins take out pizza, leave to cool for 5 mins and enjoy </li>
+     <li> Spread tomato sauce on the dough </li>
+     <li> Spread Cheese on the dough </li>
+     <li> Add pepperoni on the dough </li>
+     <li> Bake for 20 mins at 400 F </li>
+     <li> After 20 mins take out pizza, leave to cool for 5 mins and enjoy </li>
     </ol>
     
-    
-
+  </article>
+ 
+   <article id ="Banana_Bread">
+   <h2>Banana Bread</h2>
+       
+   <img src="Images/Banana.jpg">   
+       
+  <h2>How to make Banana Bread </h2>
+       
+    <h3>Ingredients:</h3>
+    <ul> 
+     <li>500 g Flour</li>
+     <li>2 Eggs</li>
+     <li>1 cup Banana</li>
+     <li>1/2 cup Sugar</li>  
+     <li>1 teaspoon Salt</li>
+     <li>1 teaspoon Baking soda</li>    
+     <li> Milk </li>    
+     </ul>  
+       
+     <h3>Directions:</h3>
+    <ol>
+     <li> Mix Sugar and Eggs until fluffy </li>
+     <li> Add Flour litle by little </li>
+     <li> Add the banana </li>
+     <li> Add milk if needed </li>
+     <li> Bake for 20 mins at 400 F </li>
+     <li> After 20 mins take out Banana Bread, leave to cool for 5 mins and enjoy </li>
+    </ol>
+     </article>
+        
+    <article id ="Briyani">
+   <h2>Chicken Briyani</h2>
+       
+   <img src="Images/briyani.jpg">   
+       
+  <h2>How to make chicken Briyani </h2>
    
     
-    
+    <!-- If this line were in your code, would you see it on your Web page? -->
 </body>
 </html>
+  <!doctype html>
